@@ -36,14 +36,14 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 }
 void Create_Rectangle() {
 	struct SDL_FRect *r = (struct SDL_FRect *)malloc(sizeof(struct SDL_FRect));
-	r->x = ClickStart->x;
-	r->y = ClickStart->y;
-	r->w = SDL_abs(ClickStart->x - ClickEnd->x);
-	r->h = SDL_abs(ClickStart->y - ClickEnd->y);
+	rectangle = (struct SDL_FRect *)malloc(sizeof(struct SDL_FRect));
+	rectangle->x = ClickStart->x;
+	rectangle->y = ClickStart->y;
+	// doesnt work if you drag from right to left 
+	rectangle->w = SDL_abs(ClickStart->x - ClickEnd->x);
+	rectangle->h = SDL_abs(ClickStart->y - ClickEnd->y);
 
-	SDL_Log("rect: %f,%f,\n%f,%f", r->x, r->y, r->w, r->h);
-	rectangle = r;
-	//free(r); // idk weird error when setting rectangle directly
+	SDL_Log("rect: %f,%f,\n%f,%f", rectangle->x, rectangle->y, rectangle->w, rectangle->h);
 }
 
 /* This function runs when a new event (mouse input, keypresses, etc) occurs. */
