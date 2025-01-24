@@ -1,7 +1,0 @@
-D:/programming/my-projects/zoomer_inner/build/CMakeFiles/hello.dir
-D:/programming/my-projects/zoomer_inner/build/CMakeFiles/ALL_BUILD.dir
-D:/programming/my-projects/zoomer_inner/build/CMakeFiles/ZERO_CHECK.dir
-D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
-D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/SDL3_test.dir
-D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/ALL_BUILD.dir
