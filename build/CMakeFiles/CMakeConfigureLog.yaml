@@ -1,0 +1,1139 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 1/23/2025 5:29:23 AM.
+      
+      Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.70
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/programming/my-projects/zoomer_inner/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 1/23/2025 5:29:24 AM.
+      
+      Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.55
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/programming/my-projects/zoomer_inner/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-rq89mq"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-rq89mq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-rq89mq'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d7c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:25 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rq89mq\\cmTC_6d7c4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6d7c4.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rq89mq\\Debug\\".
+          Creating directory "cmTC_6d7c4.dir\\Debug\\cmTC_6d7c4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6d7c4.dir\\Debug\\cmTC_6d7c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d7c4.dir\\Debug\\\\" /Fd"cmTC_6d7c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d7c4.dir\\Debug\\\\" /Fd"cmTC_6d7c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rq89mq\\Debug\\cmTC_6d7c4.exe" /INCREMENTAL /ILK:"cmTC_6d7c4.dir\\Debug\\cmTC_6d7c4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-rq89mq/Debug/cmTC_6d7c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-rq89mq/Debug/cmTC_6d7c4.lib" /MACHINE:X64  /machine:x64 cmTC_6d7c4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6d7c4.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rq89mq\\Debug\\cmTC_6d7c4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6d7c4.dir\\Debug\\cmTC_6d7c4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6d7c4.dir\\Debug\\cmTC_6d7c4.tlog\\cmTC_6d7c4.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rq89mq\\cmTC_6d7c4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/apps/Visual Studio tings/IDE/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/apps/Visual Studio tings/IDE/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32532.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-7r6rkb"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-7r6rkb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-7r6rkb'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_649ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:25 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7r6rkb\\cmTC_649ef.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_649ef.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7r6rkb\\Debug\\".
+          Creating directory "cmTC_649ef.dir\\Debug\\cmTC_649ef.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_649ef.dir\\Debug\\cmTC_649ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_649ef.dir\\Debug\\\\" /Fd"cmTC_649ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_649ef.dir\\Debug\\\\" /Fd"cmTC_649ef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7r6rkb\\Debug\\cmTC_649ef.exe" /INCREMENTAL /ILK:"cmTC_649ef.dir\\Debug\\cmTC_649ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-7r6rkb/Debug/cmTC_649ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-7r6rkb/Debug/cmTC_649ef.lib" /MACHINE:X64  /machine:x64 cmTC_649ef.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_649ef.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7r6rkb\\Debug\\cmTC_649ef.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_649ef.dir\\Debug\\cmTC_649ef.tlog\\unsuccessfulbuild".
+          Touching "cmTC_649ef.dir\\Debug\\cmTC_649ef.tlog\\cmTC_649ef.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7r6rkb\\cmTC_649ef.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/apps/Visual Studio tings/IDE/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/apps/Visual Studio tings/IDE/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32532.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "vendored/SDL/cmake/sdlcpu.cmake:93 (try_compile)"
+      - "vendored/SDL/CMakeLists.txt:75 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eb8a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:26 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_eb8a6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_eb8a6.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_eb8a6.dir\\Debug\\cmTC_eb8a6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_eb8a6.dir\\Debug\\cmTC_eb8a6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb8a6.dir\\Debug\\\\" /Fd"D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_eb8a6.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          SDL_detect_arch.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb8a6.dir\\Debug\\\\" /Fd"D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_eb8a6.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+        Lib:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\Lib.exe /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_eb8a6.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_eb8a6.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_eb8a6.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_eb8a6.lib
+        FinalizeBuildStatus:
+          Deleting file "cmTC_eb8a6.dir\\Debug\\cmTC_eb8a6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eb8a6.dir\\Debug\\cmTC_eb8a6.tlog\\cmTC_eb8a6.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\vendored\\SDL\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_eb8a6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:645 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xnb2nc"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xnb2nc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xnb2nc'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b038a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:27 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\cmTC_b038a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b038a.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\Debug\\".
+          Creating directory "cmTC_b038a.dir\\Debug\\cmTC_b038a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b038a.dir\\Debug\\cmTC_b038a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b038a.dir\\Debug\\\\" /Fd"cmTC_b038a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+        D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\src.c(5,63): error C2440: '=': cannot convert from 'int' to '__m64' [D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\cmTC_b038a.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b038a.dir\\Debug\\\\" /Fd"cmTC_b038a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\src.c"
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\cmTC_b038a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\cmTC_b038a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\src.c(5,63): error C2440: '=': cannot convert from 'int' to '__m64' [D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xnb2nc\\cmTC_b038a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:666 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-3fzrho"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-3fzrho"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-3fzrho'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c674.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:27 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\cmTC_0c674.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0c674.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\Debug\\".
+          Creating directory "cmTC_0c674.dir\\Debug\\cmTC_0c674.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0c674.dir\\Debug\\cmTC_0c674.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c674.dir\\Debug\\\\" /Fd"cmTC_0c674.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c674.dir\\Debug\\\\" /Fd"cmTC_0c674.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\Debug\\cmTC_0c674.exe" /INCREMENTAL /ILK:"cmTC_0c674.dir\\Debug\\cmTC_0c674.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-3fzrho/Debug/cmTC_0c674.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-3fzrho/Debug/cmTC_0c674.lib" /MACHINE:X64  /machine:x64 cmTC_0c674.dir\\Debug\\src.obj
+          cmTC_0c674.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\Debug\\cmTC_0c674.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0c674.dir\\Debug\\cmTC_0c674.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0c674.dir\\Debug\\cmTC_0c674.tlog\\cmTC_0c674.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3fzrho\\cmTC_0c674.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:687 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-22oixn"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-22oixn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-22oixn'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b621.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:28 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\cmTC_9b621.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9b621.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\Debug\\".
+          Creating directory "cmTC_9b621.dir\\Debug\\cmTC_9b621.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9b621.dir\\Debug\\cmTC_9b621.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b621.dir\\Debug\\\\" /Fd"cmTC_9b621.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b621.dir\\Debug\\\\" /Fd"cmTC_9b621.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\Debug\\cmTC_9b621.exe" /INCREMENTAL /ILK:"cmTC_9b621.dir\\Debug\\cmTC_9b621.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-22oixn/Debug/cmTC_9b621.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-22oixn/Debug/cmTC_9b621.lib" /MACHINE:X64  /machine:x64 cmTC_9b621.dir\\Debug\\src.obj
+          cmTC_9b621.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\Debug\\cmTC_9b621.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9b621.dir\\Debug\\cmTC_9b621.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9b621.dir\\Debug\\cmTC_9b621.tlog\\cmTC_9b621.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22oixn\\cmTC_9b621.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:708 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-b49qsd"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-b49qsd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-b49qsd'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_55f88.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:29 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\cmTC_55f88.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_55f88.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\Debug\\".
+          Creating directory "cmTC_55f88.dir\\Debug\\cmTC_55f88.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_55f88.dir\\Debug\\cmTC_55f88.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55f88.dir\\Debug\\\\" /Fd"cmTC_55f88.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55f88.dir\\Debug\\\\" /Fd"cmTC_55f88.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\Debug\\cmTC_55f88.exe" /INCREMENTAL /ILK:"cmTC_55f88.dir\\Debug\\cmTC_55f88.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-b49qsd/Debug/cmTC_55f88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-b49qsd/Debug/cmTC_55f88.lib" /MACHINE:X64  /machine:x64 cmTC_55f88.dir\\Debug\\src.obj
+          cmTC_55f88.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\Debug\\cmTC_55f88.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_55f88.dir\\Debug\\cmTC_55f88.tlog\\unsuccessfulbuild".
+          Touching "cmTC_55f88.dir\\Debug\\cmTC_55f88.tlog\\cmTC_55f88.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b49qsd\\cmTC_55f88.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:729 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-p5laq0"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-p5laq0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-p5laq0'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1925d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:30 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\cmTC_1925d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1925d.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\Debug\\".
+          Creating directory "cmTC_1925d.dir\\Debug\\cmTC_1925d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1925d.dir\\Debug\\cmTC_1925d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1925d.dir\\Debug\\\\" /Fd"cmTC_1925d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1925d.dir\\Debug\\\\" /Fd"cmTC_1925d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\Debug\\cmTC_1925d.exe" /INCREMENTAL /ILK:"cmTC_1925d.dir\\Debug\\cmTC_1925d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-p5laq0/Debug/cmTC_1925d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-p5laq0/Debug/cmTC_1925d.lib" /MACHINE:X64  /machine:x64 cmTC_1925d.dir\\Debug\\src.obj
+          cmTC_1925d.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\Debug\\cmTC_1925d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1925d.dir\\Debug\\cmTC_1925d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1925d.dir\\Debug\\cmTC_1925d.tlog\\cmTC_1925d.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5laq0\\cmTC_1925d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:750 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lxwfb1"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lxwfb1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lxwfb1'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de26e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:30 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\cmTC_de26e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_de26e.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\Debug\\".
+          Creating directory "cmTC_de26e.dir\\Debug\\cmTC_de26e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_de26e.dir\\Debug\\cmTC_de26e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de26e.dir\\Debug\\\\" /Fd"cmTC_de26e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de26e.dir\\Debug\\\\" /Fd"cmTC_de26e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\Debug\\cmTC_de26e.exe" /INCREMENTAL /ILK:"cmTC_de26e.dir\\Debug\\cmTC_de26e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lxwfb1/Debug/cmTC_de26e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lxwfb1/Debug/cmTC_de26e.lib" /MACHINE:X64  /machine:x64 cmTC_de26e.dir\\Debug\\src.obj
+          cmTC_de26e.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\Debug\\cmTC_de26e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_de26e.dir\\Debug\\cmTC_de26e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_de26e.dir\\Debug\\cmTC_de26e.tlog\\cmTC_de26e.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lxwfb1\\cmTC_de26e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:773 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xznu69"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xznu69"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xznu69'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8077d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:31 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\cmTC_8077d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8077d.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\Debug\\".
+          Creating directory "cmTC_8077d.dir\\Debug\\cmTC_8077d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8077d.dir\\Debug\\cmTC_8077d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8077d.dir\\Debug\\\\" /Fd"cmTC_8077d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8077d.dir\\Debug\\\\" /Fd"cmTC_8077d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\Debug\\cmTC_8077d.exe" /INCREMENTAL /ILK:"cmTC_8077d.dir\\Debug\\cmTC_8077d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xznu69/Debug/cmTC_8077d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xznu69/Debug/cmTC_8077d.lib" /MACHINE:X64  /machine:x64 cmTC_8077d.dir\\Debug\\src.obj
+          cmTC_8077d.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\Debug\\cmTC_8077d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8077d.dir\\Debug\\cmTC_8077d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8077d.dir\\Debug\\cmTC_8077d.tlog\\cmTC_8077d.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xznu69\\cmTC_8077d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:794 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-h22i1f"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-h22i1f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-h22i1f'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc882.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:32 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\cmTC_bc882.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bc882.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\Debug\\".
+          Creating directory "cmTC_bc882.dir\\Debug\\cmTC_bc882.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bc882.dir\\Debug\\cmTC_bc882.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc882.dir\\Debug\\\\" /Fd"cmTC_bc882.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc882.dir\\Debug\\\\" /Fd"cmTC_bc882.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\Debug\\cmTC_bc882.exe" /INCREMENTAL /ILK:"cmTC_bc882.dir\\Debug\\cmTC_bc882.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-h22i1f/Debug/cmTC_bc882.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-h22i1f/Debug/cmTC_bc882.lib" /MACHINE:X64  /machine:x64 cmTC_bc882.dir\\Debug\\src.obj
+          cmTC_bc882.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\Debug\\cmTC_bc882.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bc882.dir\\Debug\\cmTC_bc882.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bc882.dir\\Debug\\cmTC_bc882.tlog\\cmTC_bc882.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h22i1f\\cmTC_bc882.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:815 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-4y0srk"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-4y0srk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-4y0srk'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c8f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:33 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\cmTC_0c8f9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0c8f9.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\Debug\\".
+          Creating directory "cmTC_0c8f9.dir\\Debug\\cmTC_0c8f9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0c8f9.dir\\Debug\\cmTC_0c8f9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c8f9.dir\\Debug\\\\" /Fd"cmTC_0c8f9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c8f9.dir\\Debug\\\\" /Fd"cmTC_0c8f9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\Debug\\cmTC_0c8f9.exe" /INCREMENTAL /ILK:"cmTC_0c8f9.dir\\Debug\\cmTC_0c8f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-4y0srk/Debug/cmTC_0c8f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-4y0srk/Debug/cmTC_0c8f9.lib" /MACHINE:X64  /machine:x64 cmTC_0c8f9.dir\\Debug\\src.obj
+          cmTC_0c8f9.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\Debug\\cmTC_0c8f9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0c8f9.dir\\Debug\\cmTC_0c8f9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0c8f9.dir\\Debug\\cmTC_0c8f9.tlog\\cmTC_0c8f9.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4y0srk\\cmTC_0c8f9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendored/SDL/CMakeLists.txt:958 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lotwvk"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lotwvk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lotwvk'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c4f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:34 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\cmTC_0c4f0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0c4f0.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\Debug\\".
+          Creating directory "cmTC_0c4f0.dir\\Debug\\cmTC_0c4f0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0c4f0.dir\\Debug\\cmTC_0c4f0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4f0.dir\\Debug\\\\" /Fd"cmTC_0c4f0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4f0.dir\\Debug\\\\" /Fd"cmTC_0c4f0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\CheckIncludeFile.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\Debug\\cmTC_0c4f0.exe" /INCREMENTAL /ILK:"cmTC_0c4f0.dir\\Debug\\cmTC_0c4f0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lotwvk/Debug/cmTC_0c4f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-lotwvk/Debug/cmTC_0c4f0.lib" /MACHINE:X64  /machine:x64 cmTC_0c4f0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0c4f0.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\Debug\\cmTC_0c4f0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0c4f0.dir\\Debug\\cmTC_0c4f0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0c4f0.dir\\Debug\\cmTC_0c4f0.tlog\\cmTC_0c4f0.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lotwvk\\cmTC_0c4f0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendored/SDL/CMakeLists.txt:1039 (check_symbol_exists)"
+    checks:
+      - "Looking for _copysign"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-qrcmwi"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-qrcmwi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "LIBC_HAS__COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-qrcmwi'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ac885.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:34 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\cmTC_ac885.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ac885.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\Debug\\".
+          Creating directory "cmTC_ac885.dir\\Debug\\cmTC_ac885.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ac885.dir\\Debug\\cmTC_ac885.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac885.dir\\Debug\\\\" /Fd"cmTC_ac885.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          CheckSymbolExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac885.dir\\Debug\\\\" /Fd"cmTC_ac885.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\CheckSymbolExists.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\Debug\\cmTC_ac885.exe" /INCREMENTAL /ILK:"cmTC_ac885.dir\\Debug\\cmTC_ac885.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-qrcmwi/Debug/cmTC_ac885.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-qrcmwi/Debug/cmTC_ac885.lib" /MACHINE:X64  /machine:x64 cmTC_ac885.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_ac885.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\Debug\\cmTC_ac885.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ac885.dir\\Debug\\cmTC_ac885.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ac885.dir\\Debug\\cmTC_ac885.tlog\\cmTC_ac885.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qrcmwi\\cmTC_ac885.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendored/SDL/CMakeLists.txt:1039 (check_symbol_exists)"
+    checks:
+      - "Looking for _fseeki64"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-dclmjr"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-dclmjr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "LIBC_HAS__FSEEKI64"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-dclmjr'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9bb7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:35 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\cmTC_9bb7e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9bb7e.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\Debug\\".
+          Creating directory "cmTC_9bb7e.dir\\Debug\\cmTC_9bb7e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9bb7e.dir\\Debug\\cmTC_9bb7e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bb7e.dir\\Debug\\\\" /Fd"cmTC_9bb7e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          CheckSymbolExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bb7e.dir\\Debug\\\\" /Fd"cmTC_9bb7e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\CheckSymbolExists.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\Debug\\cmTC_9bb7e.exe" /INCREMENTAL /ILK:"cmTC_9bb7e.dir\\Debug\\cmTC_9bb7e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-dclmjr/Debug/cmTC_9bb7e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-dclmjr/Debug/cmTC_9bb7e.lib" /MACHINE:X64  /machine:x64 cmTC_9bb7e.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_9bb7e.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\Debug\\cmTC_9bb7e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9bb7e.dir\\Debug\\cmTC_9bb7e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9bb7e.dir\\Debug\\cmTC_9bb7e.tlog\\cmTC_9bb7e.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dclmjr\\cmTC_9bb7e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:1960 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xv1nag"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xv1nag"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-xv1nag'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d72cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:36 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\cmTC_d72cc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d72cc.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\Debug\\".
+          Creating directory "cmTC_d72cc.dir\\Debug\\cmTC_d72cc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d72cc.dir\\Debug\\cmTC_d72cc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d72cc.dir\\Debug\\\\" /Fd"cmTC_d72cc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d72cc.dir\\Debug\\\\" /Fd"cmTC_d72cc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\src.c"
+        D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\src.c(4,14): fatal  error C1083: Cannot open include file: 'gameinput.h': No such file or directory [D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\cmTC_d72cc.vcxproj]
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\cmTC_d72cc.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\cmTC_d72cc.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\src.c(4,14): fatal  error C1083: Cannot open include file: 'gameinput.h': No such file or directory [D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xv1nag\\cmTC_d72cc.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendored/SDL/CMakeLists.txt:1966 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-c030xg"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-c030xg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-c030xg'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7161.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:36 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\cmTC_f7161.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f7161.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\Debug\\".
+          Creating directory "cmTC_f7161.dir\\Debug\\cmTC_f7161.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f7161.dir\\Debug\\cmTC_f7161.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7161.dir\\Debug\\\\" /Fd"cmTC_f7161.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7161.dir\\Debug\\\\" /Fd"cmTC_f7161.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\CheckIncludeFile.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\Debug\\cmTC_f7161.exe" /INCREMENTAL /ILK:"cmTC_f7161.dir\\Debug\\cmTC_f7161.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-c030xg/Debug/cmTC_f7161.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-c030xg/Debug/cmTC_f7161.lib" /MACHINE:X64  /machine:x64 cmTC_f7161.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f7161.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\Debug\\cmTC_f7161.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f7161.dir\\Debug\\cmTC_f7161.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f7161.dir\\Debug\\cmTC_f7161.tlog\\cmTC_f7161.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c030xg\\cmTC_f7161.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.76
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "vendored/SDL/CMakeLists.txt:1973 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-r7k9lk"
+      binary: "D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-r7k9lk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/programming/my-projects/zoomer_inner/vendored/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-r7k9lk'
+        
+        Run Build Command(s): "D:/apps/Visual Studio tings/IDE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0816b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 1/23/2025 5:29:37 AM.
+        
+        Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\cmTC_0816b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0816b.dir\\Debug\\".
+          Creating directory "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\Debug\\".
+          Creating directory "cmTC_0816b.dir\\Debug\\cmTC_0816b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0816b.dir\\Debug\\cmTC_0816b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0816b.dir\\Debug\\\\" /Fd"cmTC_0816b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0816b.dir\\Debug\\\\" /Fd"cmTC_0816b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\src.c"
+        Link:
+          D:\\apps\\Visual Studio tings\\IDE\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\Debug\\cmTC_0816b.exe" /INCREMENTAL /ILK:"cmTC_0816b.dir\\Debug\\cmTC_0816b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-r7k9lk/Debug/cmTC_0816b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programming/my-projects/zoomer_inner/build/CMakeFiles/CMakeScratch/TryCompile-r7k9lk/Debug/cmTC_0816b.lib" /MACHINE:X64  /machine:x64 cmTC_0816b.dir\\Debug\\src.obj
+          cmTC_0816b.vcxproj -> D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\Debug\\cmTC_0816b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0816b.dir\\Debug\\cmTC_0816b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0816b.dir\\Debug\\cmTC_0816b.tlog\\cmTC_0816b.lastbuildstate".
+        Done Building Project "D:\\programming\\my-projects\\zoomer_inner\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r7k9lk\\cmTC_0816b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.88
+        
+      exitCode: 0
+...
